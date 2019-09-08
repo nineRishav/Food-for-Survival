@@ -39,7 +39,7 @@ Our work involves developing a reliable platform that can be scalable for implem
 	* **Package Name** : com.debdas.vishwajeet.rishav.ffs.foodforsurvival
 	* **Cloud** : Google Cloud, Firebase, AdMob
 + #### Website
-	* ** Database type** : MySql 5.7
+	* **Database type** : MySql 5.7
 	* **Development Environment**: php5.5
 	* **Cloud** : Google Cloud
 + #### Google Cloud Platform
@@ -60,7 +60,7 @@ Our work involves developing a reliable platform that can be scalable for implem
 
 ---
 ### Business Plan:
-![Database](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/database%20designs.png)
+![Business Plan](https://github.com/oddRishav/Food-For-Survival/blob/master/Food%20for%20Survival_%20Timeline%20%26%20Future%20Road%20Map.pdf)
 ---
 ### Screenshot:
 
