@@ -32,17 +32,17 @@ Our work involves developing a reliable platform that can be scalable for implem
 
 ### Specifications :
 
-+ ####Android App
++ #### Android App
 	* **Version** : min. Kit-Kat 4.4(API-19)
 	* **Application Name**: Food for Survival
 	* **Company Domain** : ffs.rishav.vishwajeet.debdas.com
 	* **Package Name** : com.debdas.vishwajeet.rishav.ffs.foodforsurvival
 	* **Cloud** : Google Cloud, Firebase, AdMob
-+ ####Website
++ #### Website
 	* ** Database type** : MySql 5.7
 	* **Development Environment**: php5.5
 	* **Cloud** : Google Cloud
-+ ####Google Cloud Platform
++ #### Google Cloud Platform
 	* **Cloud Computing Type** : PAAS(APP Engine)
 	* **Cloud SQL instance name**: ffs-instance
 	* **Traffic Allocation** : Automatically
@@ -58,6 +58,9 @@ Our work involves developing a reliable platform that can be scalable for implem
 + ####Database :  
 	![Database](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/database%20designs.png)
 
+---
+### Business Plan:
+![Database](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/database%20designs.png)
 ---
 ### Screenshot:
 
