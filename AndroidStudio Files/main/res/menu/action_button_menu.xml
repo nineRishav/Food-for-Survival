@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+        <item android:id="@+id/action_mess"
+            android:icon="@drawable/ic_kitchen_black_24dp"
+            android:title="@string/menu"
+            app:showAsAction="ifRoom" />
+            -->
+
+    <item
+        android:id="@+id/action_contactUs"
+        android:icon="@drawable/ic_contact_mail_black_24dp"
+        android:title="@string/mail_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_credit"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="@string/credit"
+        app:showAsAction="never" />
+
+</menu>

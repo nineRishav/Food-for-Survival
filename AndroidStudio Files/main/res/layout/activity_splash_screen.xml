@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logoNameSplash"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/foodforsurvivallogo"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:id="@+id/appNameSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoNameSplash"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="@string/app_name"
+        android:textColor="#fff"
+        android:textSize="44sp" />
+
+</RelativeLayout>

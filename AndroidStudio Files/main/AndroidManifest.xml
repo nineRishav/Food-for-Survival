@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.foodforsurvival">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/food_for_survival_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/food_for_survival_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.FirstActivity"
+            android:theme="@style/AppTheme_Full" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme_Full" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.LoginActivity"
+            android:theme="@style/AppTheme_Full"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.Bill"
+            android:label="Your Bill" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.ItemDetail"
+            android:label="Item Detail" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerList"
+            android:label="Seller List" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.ViewOrder"
+            android:label="Order History"
+            android:parentActivityName="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity" />
+        </activity>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.BuyerMainActivity"
+            android:label="Item List" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.ModifyNewItem"
+            android:label="Update Stock"
+            android:parentActivityName="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity"
+            android:theme="@style/AppTheme_Full">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity" />
+        </activity>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity"
+            android:label="Your Products" />
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerAddNewItem"
+            android:parentActivityName="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity"
+            android:theme="@style/AppTheme_Full">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SellerMainActivity" />
+        </activity>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.AboutUs"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/FullscreenTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.ViewOrderBuyer"
+            android:label="Order History"
+            android:parentActivityName="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.BuyerMainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.BuyerMainActivity" />
+        </activity>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.SplashScreen"
+            android:theme="@style/AppTheme_Full">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.WebSignUp"
+            android:label="Sign up" />
+        <activity android:name="com.debdas.vishwajeet.rishav.ffs.foodforsurvival.GoogleSignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

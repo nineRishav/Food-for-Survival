@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Food for Survival</string>
+    <string name="quantity">Quantity :</string>
+    <string name="currency_symbol">Currency symbol</string>
+    <string name="item_image">Item Image</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="action_sign_in_short">LogIn</string>
+    <string name="price">Price</string>
+    <string name="modify">Modify</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="intro_slider_message1">Hunger is not an issue of charity. It is an issue of Justice\n - Jacques Diouf</string>
+    <string name="maggi_message">Now your order is just one click away</string>
+    <string name="maggi_photo">maggi_photo</string>
+    <string name="sell_your_product">Sell your product</string>
+    <string name="seller_photo">Seller_photo</string>
+    <string name="be_a_part_of_seller_community">Be a part of seller community</string>
+    <string name="ffs_message">We all need people who will give us feedback.That\'s how We Improve!</string>
+    <string name="buyer">BUYER</string>
+    <string name="seller">SELLER</string>
+    <string name="login">Log in</string>
+    <string name="buy">Buy</string>
+    <string name="image">Image</string>
+    <string name="password">Password</string>
+    <string name="item_update">Item Update</string>
+    <string name="add_item">Add Item</string>
+
+    <string name="title_activity_about_us">About Us</string>
+    <string name="database_designed_by">DataBase Designed By:</string>
+    <string name="special_thanks_to">Special thanks to</string>
+    <string name="ruppee">₹</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="item_name">Item Name</string>
+    <string name="add">Add</string>
+    <string name="quantity_head">Quantity</string>
+    <string name="success">Success</string>
+    <string name="seller_details">Seller Details :</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="foodForSurvival">Food for Survival</string>
+    <string name="credit">Credit</string>
+    <string name="st">DON"'"T HAVE AN ACCOUNT "<b>"Sign up"</b>"</string>
+
+    <string name="mail_us">Mail us</string>
+    <string name="order_no">Order No. :</string>
+    <string name="server_client_id">359419203679-s90tepnfphrtkh2bcpd6i6skj3mekufv.apps.googleusercontent.com</string>
+</resources>
