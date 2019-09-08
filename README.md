@@ -63,4 +63,7 @@ Our work involves developing a reliable platform that can be scalable for implem
 ### Screenshot:
 
 ![Website](https://github.com/oddRishav/Food-For-Survival/blob/master/FFS%20Website/Main%20webpage.png)
+![Splash Screen](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/App%20main%20Screen.png)
+![Login Screen](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/App%20Login%20Screen.png)
+![Main Screen- BUyer](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/App%20Buyer%20Screen.png)
 
