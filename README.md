@@ -44,7 +44,6 @@ Our work involves developing a reliable platform that can be scalable for implem
 	* **Cloud** : Google Cloud
 + #### Google Cloud Platform
 	* **Cloud Computing Type** : PAAS(APP Engine)
-	* **Cloud SQL instance name**: ffs-instance
 	* **Traffic Allocation** : Automatically
 	* **Cloud SQL type**: MySql 2nd Gen 5.7
 	* **IP address of the hosting machine**: 35.200.253.xx
@@ -59,8 +58,7 @@ Our work involves developing a reliable platform that can be scalable for implem
 	![Database](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/database%20designs.png)
 
 ---
-### Business Plan:
-![Business Plan](https://github.com/oddRishav/Food-For-Survival/blob/master/Food%20for%20Survival_%20Timeline%20%26%20Future%20Road%20Map.pdf)
+### [Business Plan](https://github.com/oddRishav/Food-For-Survival/blob/master/Food%20for%20Survival_%20Timeline%20%26%20Future%20Road%20Map.pdf)
 ---
 ### Screenshot:
 
