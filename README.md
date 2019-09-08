@@ -1,5 +1,5 @@
 # Food for Survival 
-Food for Survival is the Android app and Website for OP Jindal University and nearby dhabas to order food, and snacks.
+An Android App + Website hosted on Google Cloud that helps hostel Students to buy/sell packed food items and connects nearby Store and Dhaba also.
 
 
 ### Motivation :
@@ -54,7 +54,7 @@ Our work involves developing a reliable platform that can be scalable for implem
 	* [Glide 4.7.1](https://github.com/bumptech/glide)
 	* [Volley 1.0.0](https://github.com/google/volley) 
 	* [Composer](https://getcomposer.org/)
-+ ####Database :  
++ #### Database :  
 	![Database](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/database%20designs.png)
 
 ---
