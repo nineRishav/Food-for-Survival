@@ -9,7 +9,7 @@ In India there are more than *40k universities* and stories are same everywhere.
 And for that, we have a working app named as **“Food for Survival”**.
 
 
-> Also my team wants to build something from our CS programming skill other than solving problems in HackerRank and iterating for loop only.
+> Also my team wants to build something from our CS programming skill other than solving problems in HackerRank and iterating "for" loop only.
 
 
 ![Food for Survival Logo](https://github.com/oddRishav/Food-For-Survival/blob/master/DB%20Design/ffs_baner_photo.png)
